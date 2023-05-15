@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "GmarketSansBold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  margin: auto;
+  padding: auto;
+  box-sizing: border-box;
+  font-family: GmarketSansBold;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.em-blue {
+  color: #0a596d;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  width: 100%;
+  background-color: rgba(88, 222, 255, 0.4588235294);
+}
+.header .nav {
+  width: 1098px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .nav h1 {
+  font-size: 25px;
+}
+.header .nav ul {
+  display: flex;
+  justify-content: center;
+  margin-right: 30px;
+  gap: 30px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 1098px;
+}
+.container .about {
+  margin: 80px 0;
+}
+.container .about .wrap-about {
+  display: flex;
+  justify-content: center;
+}
+.container .about .wrap-about .left-wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 549px;
+}
+.container .about .wrap-about .left-wrap .main-tx {
+  font-size: 25px;
+}
+.container .about .wrap-about .left-wrap .main-tx-em {
+  margin-top: -10px;
+  font-size: 80px;
+}
+.container .about .wrap-about .left-wrap .profile-img {
+  width: 540px;
+  height: 540px;
+  margin: 20px 0;
+  border-radius: 70%;
+  overflow: hidden;
+}
+.container .about .wrap-about .left-wrap .profile-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.container .about .wrap-about .right-wrap {
+  width: 549px;
+}/*# sourceMappingURL=style.css.map */
