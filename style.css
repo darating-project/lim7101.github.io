@@ -28,7 +28,11 @@ button {
 }
 
 .em-blue {
-  color: #0a596d;
+  font-size: 30px;
+  background: linear-gradient(to right top, #36ce10, rgba(31, 202, 39, 0.1843137255));
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 
 .header {
@@ -36,7 +40,7 @@ button {
   justify-content: center;
   height: 80px;
   width: 100%;
-  background-color: rgba(88, 222, 255, 0.4588235294);
+  background: linear-gradient(#04c1f0, rgba(14, 178, 219, 0.1176470588));
 }
 .header .nav {
   width: 1098px;
@@ -55,18 +59,18 @@ button {
 }
 
 .container {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
   height: 100%;
-  width: 1098px;
+  width: 100%;
 }
 .container .about {
+  display: flex;
+  justify-content: center;
   margin: 80px 0;
 }
 .container .about .wrap-about {
   display: flex;
   justify-content: center;
+  gap: 100px;
 }
 .container .about .wrap-about .left-wrap {
   display: flex;

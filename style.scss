@@ -26,14 +26,18 @@ button {
   outline: inherit;
 }
 .em-blue {
-  color: #0a596d;
+  font-size: 30px;
+  background: linear-gradient(to right top, #36ce10, #1fca272f);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 .header {
   display: flex;
   justify-content: center;
   height: 80px;
   width: 100%;
-  background-color: #58deff75;
+  background: linear-gradient(#04c1f0, #0eb2db1e);
   .nav {
     width: 1098px;
     display: flex;
@@ -51,16 +55,16 @@ button {
   }
 }
 .container {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
   height: 100%;
-  width: 1098px;
+  width: 100%;
   .about {
+    display: flex;
+    justify-content: center;
     margin: 80px 0;
     .wrap-about {
       display: flex;
       justify-content: center;
+      gap: 100px;
       .left-wrap {
         display: flex;
         justify-content: space-between;
