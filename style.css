@@ -35,6 +35,10 @@ button {
   -webkit-background-clip: text;
 }
 
+.con-tx {
+  font-size: 20px;
+}
+
 .header {
   display: flex;
   justify-content: center;
@@ -59,6 +63,7 @@ button {
 }
 
 .container {
+  margin: 0 auto;
   height: 100%;
   width: 100%;
 }
@@ -70,13 +75,14 @@ button {
 .container .about .wrap-about {
   display: flex;
   justify-content: center;
-  gap: 100px;
+  gap: 200px;
 }
 .container .about .wrap-about .left-wrap {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
   width: 549px;
+  gap: 10px;
 }
 .container .about .wrap-about .left-wrap .main-tx {
   font-size: 25px;
@@ -100,4 +106,19 @@ button {
 }
 .container .about .wrap-about .right-wrap {
   width: 549px;
+}
+.container .about .wrap-about .right-wrap .main-tx {
+  margin-bottom: 100px;
+  font-size: 60px;
+  text-align: center;
+}
+.container .about .wrap-about .right-wrap .chart-wrap {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-items: center;
+}
+.container .about .wrap-about .right-wrap .chart-wrap .chart {
+  width: 250px;
+  height: 250px;
 }/*# sourceMappingURL=style.css.map */

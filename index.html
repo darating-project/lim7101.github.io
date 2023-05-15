@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
@@ -22,31 +19,40 @@
       <div class="con about" id="about">
         <div class="wrap-about">
           <div class="left-wrap">
-            <div class="main-tx">끊임없이 연구하는 분석가, <span class="em-blue">임은수</span></div>
+            <div class="main-tx">
+              끊임없이 연구하는 분석가, <span class="em-blue">임은수</span>
+            </div>
             <div class="main-tx-em">LIM EUN SU</div>
             <div class="profile-img">
-              <img src="img/myImage.jpeg" alt="">
+              <img src="img/myImage.jpeg" alt="" />
             </div>
-            <div class="con-tx">LIM EUN SU</div>
+            <div class="con-tx">끊임없이 연구하는 분석가, 임은수입니다.</div>
           </div>
           <div class="right-wrap">
             <div class="main-tx">SKILL</div>
-            <div style="width: 900px; height: 900px;">
-              <canvas id="myChart"></canvas>
-            </div>            
+            <div class="chart-wrap">
+              <div class="chart">
+                <canvas id="myChart"></canvas>
+              </div>
+              <div class="chart">
+                <canvas id="myChart"></canvas>
+              </div>
+              <div class="chart">
+                <canvas id="myChart"></canvas>
+              </div>
+              <div class="chart">
+                <canvas id="myChart"></canvas>
+              </div>
+            </div>
             <div class="profile-img"></div>
           </div>
         </div>
       </div>
-    </div>
-      <div class="con goal" id="goal">111</div>
-    </div>
-      <div class="con contact" id="contact">111</div>
+      <div class="con goal" id="goal"></div>
+      <div class="con contact" id="contact"></div>
     </div>
     <div class="footer"></div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="script.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.3.0/chart.min.js"></script>
-    
-
   </body>
 </html>

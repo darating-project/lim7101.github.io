@@ -32,6 +32,9 @@ button {
   background-clip: text;
   -webkit-background-clip: text;
 }
+.con-tx {
+  font-size: 20px;
+}
 .header {
   display: flex;
   justify-content: center;
@@ -54,7 +57,9 @@ button {
     }
   }
 }
+
 .container {
+  margin: 0 auto;
   height: 100%;
   width: 100%;
   .about {
@@ -64,12 +69,13 @@ button {
     .wrap-about {
       display: flex;
       justify-content: center;
-      gap: 100px;
+      gap: 200px;
       .left-wrap {
         display: flex;
         justify-content: space-between;
         flex-direction: column;
         width: 549px;
+        gap: 10px;
         .main-tx {
           font-size: 25px;
         }
@@ -92,6 +98,21 @@ button {
       }
       .right-wrap {
         width: 549px;
+        .main-tx {
+          margin-bottom: 100px;
+          font-size: 60px;
+          text-align: center;
+        }
+        .chart-wrap {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          grid-template-rows: repeat(2, 1fr);
+          justify-items: center;
+          .chart {
+            width: 250px;
+            height: 250px;
+          }
+        }
       }
     }
   }
