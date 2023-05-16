@@ -113,9 +113,36 @@ button {
           grid-template-rows: repeat(2, 1fr);
           justify-items: center;
           gap: 40px;
-          .chart {
-            width: 250px;
-            height: 250px;
+          .pie-chart-wrap {
+            display: flex;
+            flex-direction: column;
+            .pie-chart {
+              position: relative;
+              display: inline-block;
+              width: 200px;
+              height: 200px;
+              border-radius: 50%;
+              transition: 0.3s;
+              .center-tx {
+                background: #fff;
+                display: block;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                text-align: center;
+                line-height: 100px;
+                font-size: 30px;
+                transform: translate(-50%, -50%);
+              }
+            }
+            .btm-tx {
+              text-align: center;
+              margin: 20px 0;
+              font-size: 20px;
+            }
           }
         }
       }
